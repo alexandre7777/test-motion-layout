@@ -11,6 +11,13 @@
                 motion:touchAnchorId="@+id/blue_button"
                 motion:touchAnchorSide="right"
                 motion:dragDirection="dragRight"/>
+        <KeyFrameSet>
+            <KeyPosition
+                    motion:keyPositionType="parentRelative"
+                    motion:percentY="0.75"
+                    motion:framePosition="80"
+                    motion:target="@+id/blue_button"/>
+        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet
