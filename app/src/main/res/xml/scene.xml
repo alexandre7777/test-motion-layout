@@ -35,7 +35,8 @@
                 android:layout_marginStart="@dimen/btn_margin"
                 motion:layout_constraintBottom_toBottomOf="parent"
                 motion:layout_constraintStart_toStartOf="parent"
-                motion:layout_constraintTop_toTopOf="parent">
+                motion:layout_constraintTop_toTopOf="parent"
+                motion:pathMotionArc="startVertical">
             <CustomAttribute
                     motion:attributeName="backgroundColor"
                     motion:customColorValue="@color/blue"/>
@@ -50,7 +51,8 @@
                 android:layout_marginEnd="@dimen/btn_margin"
                 motion:layout_constraintBottom_toBottomOf="parent"
                 motion:layout_constraintEnd_toEndOf="parent"
-                motion:layout_constraintTop_toTopOf="parent">
+                motion:layout_constraintTop_toTopOf="parent"
+                motion:pathMotionArc="startHorizontal">
             <CustomAttribute
                     motion:attributeName="backgroundColor"
                     motion:customColorValue="@color/light_blue"/>
