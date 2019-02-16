@@ -17,4 +17,14 @@
         tools:layout_editor_absoluteX="147dp"
         tools:layout_editor_absoluteY="230dp" />
 
+    <Button
+        android:id="@+id/toCoordinator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coordinator"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="8dp" />
+
 </android.support.constraint.motion.MotionLayout>
