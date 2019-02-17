@@ -95,4 +95,7 @@
     </string>
     <string name="monterey">Monterey</string>
     <string name="california">California</string>
+    <string name="sight_seeing">Sight-Seeing</string>
+    <string name="directions">Directions</string>
+    <string name="information">Information</string>
 </resources>
